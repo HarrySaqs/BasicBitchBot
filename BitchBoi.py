@@ -32,10 +32,9 @@ def handle(msg):
 		
 		if(text == '/memes'):
 			x = random.randint(1,138) #there are 138 pictures in the folder,named 1.png to 138.png that it chooses from at random.
-			pic = str(x) + '.png'
+			pic ='Memes/' + str(x) + '.png'
 			y = open(pic, 'rb')
 			bot.sendPhoto(chat_id, y)
-			
 			
 		elif (text.find('weed') != -1 or text.find('420') != -1 or text == '/weed'):
 			bot.sendMessage(chatid, " Get on the roof, let's get smoked out and blaze with me.")
