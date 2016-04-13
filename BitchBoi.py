@@ -54,6 +54,12 @@ def handle(msg):
 			y = open('CornPorn.png', 'rb')
 			bot.sendPhoto(chat_id, y)
 			
+		elif (text == '/jeff'):
+			x = random.randint(1,8)
+			pic = 'Jeff/' + str(x) + '.png'
+			y = open(pic, 'rb')
+			bot.sendPhoto(chat_id, y)
+			
 			
 #	elif(content_type == 'sticker'):
 	#	bot.sendSticker(chat_id, msg['sticker']['file_id'])
