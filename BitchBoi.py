@@ -37,7 +37,7 @@ def handle(msg):
 			bot.sendPhoto(chat_id, y)
 			
 		elif (text.find('weed') != -1 or text.find('420') != -1 or text == '/weed'):
-			bot.sendMessage(chatid, " Get on the roof, let's get smoked out and blaze with me.")
+			bot.sendMessage(chat_id, " Get on the roof, let's get smoked out and blaze with me.")
 			bot.sendPhoto(chat_id, Tupac)
 			
 		elif (text.find('harry') != -1 and (text.find('stupid') != -1 or text.find('dumb') != -1 or text.find('fucker') != -1)):
