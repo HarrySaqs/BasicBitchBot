@@ -59,6 +59,8 @@ def handle(msg):
 			y = open(pic, 'rb')
 			bot.sendPhoto(chat_id, y)
 			
+		elif(text.find('suicide') != -1 or text.find('kill me') != -1 or text.find('kill myself') != -1 or text.find('end my life') != -1):
+			bot.sendSticker(chat_id, 'BQADAgAD6gQAAog4OAIyRz6o2_muQwI')
 			
 #	elif(content_type == 'sticker'):
 	#	bot.sendSticker(chat_id, msg['sticker']['file_id'])
